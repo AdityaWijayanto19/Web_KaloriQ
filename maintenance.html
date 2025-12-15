@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KaloriQ - Halaman dalam Perbaikan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #fdfaf6; /* Latar belakang hangat, sama seperti index.html */
+        color: #1f2937;
+      }
+    </style>
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- Latar Belakang Aurora -->
+    <div class="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
+      <div class="absolute -top-60 -left-40 w-[500px] h-[500px] bg-yellow-300 rounded-full blur-3xl opacity-20"></div>
+      <div class="absolute -bottom-80 -right-40 w-[600px] h-[600px] bg-orange-400 rounded-full blur-3xl opacity-20"></div>
+    </div>
+
+    <!-- Kontainer Utama -->
+    <div
+      class="flex flex-col items-center justify-center min-h-screen p-6 text-center"
+    >
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center space-x-2 mb-10">
+        <div
+          class="w-10 h-10 bg-gray-900 rounded-full flex items-center justify-center"
+        >
+          <img
+            src="images/Logo KaloriQ-1.png"
+            class="w-6 h-10"
+          />
+        </div>
+        <span class="text-2xl font-bold text-gray-900">KaloriQ</span>
+      </a>
+
+      <!-- Ikon Maintenance -->
+      <div class="mb-8">
+        <i class="fa-solid fa-person-digging text-7xl text-orange-500"></i>
+      </div>
+
+      <!-- Konten Teks -->
+      <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight tracking-tight">
+        Halaman Ini Sedang Disiapkan
+      </h1>
+      <p class="mt-4 max-w-lg text-gray-600 text-lg">
+        Tim kami sedang bekerja keras untuk menyelesaikannya. Terima kasih atas kesabaran Anda, silakan kembali lagi nanti!
+      </p>
+
+      <!-- Tombol Kembali -->
+      <div class="mt-10">
+        <button
+          onclick="history.back()"
+          class="bg-gray-800 text-white font-semibold py-3 px-8 rounded-lg hover:bg-gray-900 transition-colors duration-300 flex items-center gap-2"
+        >
+          <i class="fas fa-arrow-left"></i>
+          <span>Kembali</span>
+        </button>
+      </div>
+
+      <!-- Footer kecil -->
+      <footer class="absolute bottom-8 text-sm text-gray-500">
+        &copy; 2025 KaloriQ. All rights reserved.
+      </footer>
+    </div>
+  </body>
+</html>     
